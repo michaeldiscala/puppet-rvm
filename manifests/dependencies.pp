@@ -3,5 +3,6 @@ class rvm::dependencies {
     Ubuntu,Debian: { require rvm::dependencies::ubuntu }
     CentOS,RedHat: { require rvm::dependencies::centos }
     OracleLinux,RedHat: { require rvm::dependencies::oraclelinux }
+    Amazon: { require rvm::dependencies::amazon }
   }
 }
